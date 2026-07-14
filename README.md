@@ -15,8 +15,8 @@ Add the marketplace once:
 Then install the plugins you want:
 
 ```
-/plugin install branch-merge-gro@cata-skills
-/plugin install pr-review-slack@cata-skills
+/plugin install branch-merge-gro@personal-skills
+/plugin install pr-review-slack@personal-skills
 ```
 
 Manage everything from the `/plugin` menu (enable/disable/uninstall).
@@ -24,10 +24,10 @@ Manage everything from the `/plugin` menu (enable/disable/uninstall).
 ## Update
 
 ```
-/plugin marketplace update cata-skills
+/plugin marketplace update personal-skills
 ```
 
-Or enable auto-update for the `cata-skills` marketplace in the `/plugin` menu —
+Or enable auto-update for the `personal-skills` marketplace in the `/plugin` menu —
 then a push to this repo propagates to everyone on their next startup.
 
 ## Plugins
