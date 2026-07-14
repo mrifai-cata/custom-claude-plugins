@@ -1,0 +1,21 @@
+.claude-plugin/marketplace.json
+  s_57ef1884a64114::t_52c145ec12a133 2
+README.md
+  s_57ef1884a64114::t_882c836888e2ff 18-19,27,30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "7be9525ddae1e4f5238bb1baaed49bbcc87f2871",
+  "prompts": {},
+  "sessions": {
+    "s_57ef1884a64114": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7e6a23db-0676-4ae8-81e2-6f25ea7843d0",
+        "model": "claude-fable-5"
+      },
+      "human_author": "mrifai-cata <muhammad.rifai@trycata.com>"
+    }
+  }
+}
