@@ -1,0 +1,27 @@
+plugins/jira-deploy-status/.claude-plugin/plugin.json
+  s_57ef1884a64114::t_c2590e78eb4021 1-8
+.claude-plugin/marketplace.json
+  s_57ef1884a64114::t_605f428ab1aed3 20-24
+plugins/jira-deploy-status/skills/jira-deploy-status/SKILL.md
+  s_57ef1884a64114::t_dd13b382c00645 1-104
+README.md
+  s_57ef1884a64114::t_d52d4b2e2cb48c 50-53,55
+  s_57ef1884a64114::t_bcf450f3e0b13f 40
+  s_57ef1884a64114::t_b104f8a57b53e3 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "9097021593c5cb7e946b127cb102f686e5a1439f",
+  "prompts": {},
+  "sessions": {
+    "s_57ef1884a64114": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7e6a23db-0676-4ae8-81e2-6f25ea7843d0",
+        "model": "claude-fable-5"
+      },
+      "human_author": "mrifai-cata <muhammad.rifai@trycata.com>"
+    }
+  }
+}
