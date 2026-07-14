@@ -1,0 +1,8 @@
+{
+  "name": "pr-review-slack",
+  "description": "Turn one or more GitHub PR links into a ready-to-send Slack review-request message: resolve titles, tag repos, pick reviewers, confirm, then post.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrifai"
+  }
+}

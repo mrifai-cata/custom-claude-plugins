@@ -1,0 +1,8 @@
+{
+  "name": "branch-merge-gro",
+  "description": "Merge one or more feature/fix branches into the shared demo/gro staging branch for a repo, in place, with a fixed safe routine (no new branches, no force-push, stop-and-ask on conflicts).",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrifai"
+  }
+}

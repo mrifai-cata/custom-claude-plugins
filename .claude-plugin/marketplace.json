@@ -1,0 +1,22 @@
+{
+  "name": "cata-skills",
+  "owner": {
+    "name": "mrifai"
+  },
+  "metadata": {
+    "description": "Custom Claude Code skills for the CATA team (branch merges, PR review requests, and more).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "branch-merge-gro",
+      "source": "./plugins/branch-merge-gro",
+      "description": "Merge one or more feature/fix branches into the shared demo/gro staging branch for a repo, in place, with a fixed safe routine (no new branches, no force-push, stop-and-ask on conflicts)."
+    },
+    {
+      "name": "pr-review-slack",
+      "source": "./plugins/pr-review-slack",
+      "description": "Turn one or more GitHub PR links into a ready-to-send Slack review-request message: resolve titles, tag repos, pick reviewers, confirm, then post."
+    }
+  ]
+}
