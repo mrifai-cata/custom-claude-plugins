@@ -1,0 +1,8 @@
+{
+  "name": "jira-deploy-status",
+  "description": "Post a proactive deploy-status update on a JIRA ticket: look up the ticket, find related PRs across the sambatechno repos, work out the pipeline stage, draft an English status comment, and post it after approval.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrifai"
+  }
+}

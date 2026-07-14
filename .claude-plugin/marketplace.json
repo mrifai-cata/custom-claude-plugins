@@ -17,6 +17,11 @@
       "name": "pr-review-slack",
       "source": "./plugins/pr-review-slack",
       "description": "Turn one or more GitHub PR links into a ready-to-send Slack review-request message: resolve titles, tag repos, pick reviewers, confirm, then post."
+    },
+    {
+      "name": "jira-deploy-status",
+      "source": "./plugins/jira-deploy-status",
+      "description": "Post a proactive deploy-status update on a JIRA ticket: look up the ticket, find related PRs across the sambatechno repos, work out the pipeline stage, draft an English status comment, and post it after approval."
     }
   ]
 }

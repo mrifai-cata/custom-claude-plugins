@@ -17,6 +17,7 @@ Then install the plugins you want:
 ```
 /plugin install branch-merge-gro@personal-skills
 /plugin install pr-review-slack@personal-skills
+/plugin install jira-deploy-status@personal-skills
 ```
 
 Manage everything from the `/plugin` menu (enable/disable/uninstall).
@@ -36,6 +37,7 @@ then a push to this repo propagates to everyone on their next startup.
 |---|---|---|
 | `branch-merge-gro` | Merge branches into the shared `demo/gro` staging branch, in place, with a fixed safe routine (no new branches, no force-push, stop-and-ask on conflicts). | `/branch-merge-gro` |
 | `pr-review-slack` | Turn GitHub PR links into a ready-to-send Slack review-request message (resolve titles, tag repos, pick reviewers, confirm, post). | `/pr-review-slack` |
+| `jira-deploy-status` | Post a deploy-status update on a JIRA ticket: find related PRs across the sambatechno repos, work out the pipeline stage (develop → staging → production), draft an English comment, post after approval. | `/jira-deploy-status` |
 
 ## Layout
 
@@ -45,9 +47,12 @@ plugins/
 ├── branch-merge-gro/
 │   ├── .claude-plugin/plugin.json
 │   └── skills/branch-merge-gro/SKILL.md
-└── pr-review-slack/
+├── pr-review-slack/
+│   ├── .claude-plugin/plugin.json
+│   └── skills/pr-review-slack/SKILL.md
+└── jira-deploy-status/
     ├── .claude-plugin/plugin.json
-    └── skills/pr-review-slack/SKILL.md
+    └── skills/jira-deploy-status/SKILL.md
 ```
 
 To add a new skill: create `plugins/<name>/.claude-plugin/plugin.json` +
